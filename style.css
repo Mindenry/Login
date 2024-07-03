@@ -104,6 +104,11 @@ button:hover {
     color: rgb(97, 75, 46);
 }
 
+.signup a {
+    text-decoration: none;
+    color: rgb(97, 75, 46); /* สีของลิงก์ */
+}
+
 button {
     height: 50px;
     width: 200px;
