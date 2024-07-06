@@ -57,7 +57,7 @@ label {
     font-size: 2.3em;
     justify-content: center;
     display: flex;
-    margin: 60px;
+    margin: 40px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
@@ -100,7 +100,7 @@ button:hover {
 }
 
 .signup  {
-    margin-top: 4.5rem;
+    margin-top: 7rem;
     color: rgb(97, 75, 46);
 }
 
@@ -133,8 +133,9 @@ p {
     height: 60px;
     width: 60px;
     margin: 0 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: white;
     border-radius: 100%;
+    border: 0;
     padding: 0;
 }
 
