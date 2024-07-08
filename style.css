@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     font-family: myFont, Helvetica, sans-serif;
     position: relative;
-    background: linear-gradient(to right, rgb(39, 197, 255), rgb(188, 108, 253)),
+    background: linear-gradient(to right, rgb(26, 190, 249), rgb(143, 36, 231)),
         url(./bg-01.jpg) no-repeat center center fixed;
     background-size: cover;
 }
@@ -34,7 +34,7 @@ body::before {
 .main {
     width: 350px;
     height: 650px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.903);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 20px 60px #000;
@@ -57,7 +57,7 @@ label {
     font-size: 2.3em;
     justify-content: center;
     display: flex;
-    margin: 40px;
+    margin: 60px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
@@ -100,26 +100,21 @@ button:hover {
 }
 
 .signup  {
-    margin-top: 7rem;
+    margin-top: 4.5rem;
     color: rgb(97, 75, 46);
-}
-
-.signup a {
-    text-decoration: none;
-    color: rgb(97, 75, 46); /* สีของลิงก์ */
 }
 
 button {
     height: 50px;
     width: 200px;
     border-radius: 30px;
-    box-shadow: 0 5px 12px rgb(241, 169, 241);
+    box-shadow: 0 4px 10px rgb(57, 57, 57);
 }
 
 p {
     color: rgb(175, 174, 174);
     text-align: center;
-    margin-top: 3.5rem;
+    margin-top: 3rem;
 }
 
 .container {
@@ -130,11 +125,11 @@ p {
 }
 
 .container a img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     border-radius: 100%;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     padding: 0;
 }
 
